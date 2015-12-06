@@ -1,1 +1,11 @@
 /build
+/src/test
+/src/androidTest
+/src/main/res/mipmap-hdpi
+/src/main/res/mipmap-mdpi
+/src/main/res/mipmap-xhdpi
+/src/main/res/mipmap-xxhdpi
+/src/main/res/mipmap-xxxhdpi
+/src/main/res/values-w820dp
+/src/main/res/values/dimens.xml
+/src/main/res/values/styles.xml

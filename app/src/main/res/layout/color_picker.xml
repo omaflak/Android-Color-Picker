@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <SurfaceView
+        android:id="@+id/colorPicker_preview"
+        android:layout_width="match_parent"
+        android:layout_height="100dip" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <SeekBar
+            android:id="@+id/colorPicker_red"
+            android:progressDrawable="@color/red"
+            android:maxHeight="3dip"
+            android:padding="8dip"
+            android:max="255"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/colorPicker_green"
+            android:progressDrawable="@color/green"
+            android:maxHeight="3dip"
+            android:padding="8dip"
+            android:max="255"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/colorPicker_blue"
+            android:progressDrawable="@color/blue"
+            android:maxHeight="3dip"
+            android:padding="8dip"
+            android:max="255"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

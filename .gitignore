@@ -6,3 +6,14 @@
 .DS_Store
 /build
 /captures
+/app/src/test
+/app/src/androidTest
+/app/src/main/res/mipmap-hdpi
+/app/src/main/res/mipmap-mdpi
+/app/src/main/res/mipmap-xhdpi
+/app/src/main/res/mipmap-xxhdpi
+/app/src/main/res/mipmap-xxxhdpi
+/app/src/main/res/values-w820dp
+/app/src/main/res/values/dimens.xml
+/app/src/main/res/values/styles.xml
+
